@@ -27,26 +27,90 @@ Um bom PRD deve descrever o problema, quem será beneficiado, as principais func
 
 ```txt
 # Contexto
-Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
-A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
+# 📱 Plano de MVP – App de Finanças Pessoais Conversacional
 
-# Problema
-Muitas pessoas desistem de controlar seus gastos porque os apps atuais exigem muita entrada manual e pouca personalização.  
-Quero resolver isso com uma experiência de conversa e recomendações automáticas de economia.
+## 🎯 Objetivo
+Criar um aplicativo que ajude iniciantes a organizar suas finanças de forma simples, por meio de **conversas naturais**, com foco em **metas claras** e **simulação de crédito**.
 
-# Público-Alvo
-Pessoas que querem começar a organizar suas finanças de forma prática e sem complicação, principalmente iniciantes.
+---
 
-# Funcionalidades-Chave
-1. Registrar gastos via chat em linguagem natural.  
-2. Classificar automaticamente as transações.  
-3. Definir e acompanhar metas financeiras.  
-4. Receber dicas de economia do “Agente Financeiro”.  
-5. Visualizar relatórios simples e personalizados.
+## 🖼️ Principais Telas
 
-# Entregável da IA
-Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
-Usar tom educativo e linguagem acessível, em português.
+| Tela | Descrição | Elementos-Chave |
+|------|-----------|-----------------|
+| **Tela de Boas-Vindas** | Apresenta o app e explica como funciona | Logo, mensagem amigável, botão "Começar Conversa" |
+| **Chat Financeiro** | Onde o usuário interage com o “Agente Financeiro” | Caixa de diálogo, sugestões rápidas (“Registrar gasto”, “Definir meta”) |
+| **Metas Financeiras** | Área dedicada para criar e acompanhar objetivos | Barra de progresso, metas visuais (ex: “Economizar R$ 500 até junho”) |
+| **Relatórios Simples** | Visualização clara dos gastos e ganhos | Gráficos de pizza (categorias), linha do tempo de despesas |
+| **Simulador de Financiamento/Empréstimos** | Ferramenta para calcular parcelas e juros | Campos: valor, prazo, taxa de juros; resultado com tabela de amortização |
+| **Dicas de Economia** | Recomendações personalizadas | Cards com sugestões práticas (ex: “Reduza gastos com delivery”) |
+
+---
+
+## ⚙️ Recursos Necessários
+
+- **Processamento de linguagem natural (NLP):** para interpretar mensagens do usuário (“gastei 50 reais no mercado”).
+- **Classificação automática de transações:** categorização em alimentação, transporte, lazer etc.
+- **Banco de dados leve (SQLite ou Firebase):** para armazenar gastos, metas e relatórios.
+- **Gráficos interativos:** bibliotecas como Chart.js ou Recharts.
+- **Módulo de simulação financeira:** cálculo de juros compostos e parcelas (ex: fórmula de financiamento Price).
+- **Agente Financeiro:** chatbot que responde com dicas e orientações.
+
+---
+
+## 🏗️ Estrutura de Funcionalidades
+
+1. **Registrar gastos via chat**  
+   - Usuário digita: “gastei R$ 30 em transporte”  
+   - App interpreta e salva automaticamente.
+
+2. **Classificação automática**  
+   - Algoritmo simples de palavras-chave (ex: “mercado” → alimentação).
+
+3. **Metas financeiras visíveis**  
+   - Exemplo: “Juntar R$ 1000 para viagem”  
+   - Barra de progresso + notificações motivacionais.
+
+4. **Relatórios personalizados**  
+   - Gráfico de pizza para categorias.  
+   - Linha do tempo para evolução dos gastos.
+
+5. **Simulador de financiamento/empréstimos**  
+   - Usuário informa valor, taxa e prazo.  
+   - App calcula parcelas e mostra tabela de amortização.
+
+6. **Dicas de economia**  
+   - Baseadas nos gastos do usuário.  
+   - Exemplo: “Você gastou muito em delivery este mês, que tal cozinhar mais em casa?”
+
+---
+
+## ✅ Esboço de Validação Inicial
+
+- **Teste com 5 a 10 usuários iniciantes**  
+  - Observar se conseguem registrar gastos sem dificuldade.  
+  - Ver se entendem as metas e relatórios sem precisar de explicação.  
+  - Avaliar se o simulador ajuda na tomada de decisão.
+
+- **Métricas de sucesso**  
+  - % de usuários que registram mais de 5 gastos na primeira semana.  
+  - % que criam pelo menos uma meta.  
+  - Feedback positivo sobre clareza dos relatórios.
+
+---
+
+## 📌 Diferenciais para não ser “copia e cola”
+
+- Metas **visuais e motivacionais** (gamificação leve).  
+- Simulador de crédito integrado (poucos apps iniciantes oferecem isso).  
+- Conversa natural em vez de formulários.  
+- Relatórios simples, sem excesso de gráficos complexos.  
+
+---
+
+## 📂 Estrutura do Repositório (Sugestão)
+
+
 ```
 
 Depois de preencher o modelo, use o Copilot Web para revisar e melhorar o seu prompt antes de ir ao Lovable. A ideia é lapidar o texto até que ele fique claro, direto e reflita exatamente a sua intenção.
@@ -73,7 +137,9 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
 
-- Seu **prompt final** (PRD);  
+
+- Seu **prompt final** (PRD);  <img width="907" height="563" alt="Finny App" src="https://github.com/user-attachments/assets/9805ffd7-f1b1-4f54-a66c-e5847437c10d" />
+
 - Prints ou pequenos vídeos das interações com a IA;  
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
