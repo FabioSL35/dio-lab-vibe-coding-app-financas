@@ -1,4 +1,4 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App de Organização de Finanças Pessoais
 
 Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
 
@@ -143,9 +143,12 @@ No README do seu repositório, inclua:
 - Prints ou pequenos vídeos das interações com a IA;  
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
 - Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
+  - O que funcionou bem?
+       O design ficou bem interessante, gostei da cor que foi escolhida.
+  - O que não funcionou como o esperado?
+       O chat não funcionou como eu gostaria, queria ter liberdade de interagir com minhas próprias instruções mas não funcionou.
   - O que aprendeu sobre conversar com IAs?
+       Que eu possa interagir com elas como se fosse uma pessoa normal, preciso dar instruções mais detalhadas e precisas para ter uma resposta mais elaborada.
 
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
