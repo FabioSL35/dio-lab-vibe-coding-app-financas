@@ -27,6 +27,7 @@ Um bom PRD deve descrever o problema, quem será beneficiado, as principais func
 
 ```txt
 # Contexto
+# Contexto
 # 📱 Plano de MVP – App de Finanças Pessoais Conversacional
 
 ## 🎯 Objetivo
@@ -84,6 +85,32 @@ Criar um aplicativo que ajude iniciantes a organizar suas finanças de forma sim
    - Exemplo: “Você gastou muito em delivery este mês, que tal cozinhar mais em casa?”
 
 ---
+
+## ✅ Esboço de Validação Inicial
+
+- **Teste com 5 a 10 usuários iniciantes**  
+  - Observar se conseguem registrar gastos sem dificuldade.  
+  - Ver se entendem as metas e relatórios sem precisar de explicação.  
+  - Avaliar se o simulador ajuda na tomada de decisão.
+
+- **Métricas de sucesso**  
+  - % de usuários que registram mais de 5 gastos na primeira semana.  
+  - % que criam pelo menos uma meta.  
+  - Feedback positivo sobre clareza dos relatórios.
+
+---
+
+## 📌 Diferenciais para não ser “copia e cola”
+
+- Metas **visuais e motivacionais** (gamificação leve).  
+- Simulador de crédito integrado (poucos apps iniciantes oferecem isso).  
+- Conversa natural em vez de formulários.  
+- Relatórios simples, sem excesso de gráficos complexos.  
+
+---
+
+## 📂 Estrutura do Repositório (Sugestão)
+
 
 ## ✅ Esboço de Validação Inicial
 
